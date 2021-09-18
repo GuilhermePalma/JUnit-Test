@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="locadora.exception.JogoSemEstoqueException"/>
+    <fullyQualifiedTypeName name="qts.locadora.locadora.Cliente"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="qts.locadora.exception.ClienteSemNome"/>
+    <fullyQualifiedTypeName name="qts.locadora.exception.JogoSemNome"/>
+</qualifiedTypeNameHistroy>

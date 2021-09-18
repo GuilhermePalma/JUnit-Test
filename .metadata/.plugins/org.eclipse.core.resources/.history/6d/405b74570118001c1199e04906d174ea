@@ -1,0 +1,5 @@
+package locadora.exception;
+
+public class JogoSemEstoqueException {
+
+}

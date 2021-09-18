@@ -1,0 +1,17 @@
+package locadora.locadora;
+
+public class Jogo {
+
+	private String nome;
+	private double valor;
+	private int quantidade_estoque;
+	
+	public Jogo(String nome, double valor, int quantidade_estoque) {
+		this.nome = nome;
+		this.valor = valor;
+		this.quantidade_estoque = quantidade_estoque;
+	}
+	
+	
+	
+}

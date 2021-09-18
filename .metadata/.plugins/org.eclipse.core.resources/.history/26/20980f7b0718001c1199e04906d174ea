@@ -1,0 +1,31 @@
+package locadora.service;
+
+import java.util.Date;
+
+import locadora.locadora.*;
+import locadora.exception.*;
+import locadora.util.DataUtil;
+
+public class LocacaoService {
+
+	private final int diasPadrao = 5;
+	public int testePublic;
+	int testeDefault;
+	
+	public Locacao alugarJogo(Cliente cliente, Jogo jogo) {
+		if(jogo.getQuantidadeEstoque() == 0) {
+			throws new locadora.exception.JogoSemEstoqueException();
+		}
+		
+		Locacao locacao = new Locacao();
+		locacao.setCliente(cliente);
+		locacao.setrJogo(jogo);
+		locacao.setvalor(jogo.getValor());
+		locacao.setDataRetirada(new Date());
+		
+		Date devolucao = new DataUtil().addDias(new Date(), diaPadraoo);
+		locacao.setDataDevolucao(devolucao);
+		return locacao;
+	}
+	
+}

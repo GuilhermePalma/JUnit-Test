@@ -1,0 +1,9 @@
+package locadora.exception;
+
+public class JogoSemEstoqueException extends Exception {
+
+	/**
+	 * Exceção de Quando o Jogo não Tem no Estoque
+	 * */
+	
+}

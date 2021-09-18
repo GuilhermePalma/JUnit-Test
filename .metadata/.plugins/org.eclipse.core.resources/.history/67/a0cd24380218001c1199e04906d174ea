@@ -1,0 +1,10 @@
+package locadora.locadora;
+
+
+public class Cliente {
+
+	private String nome;
+	
+	public Client
+	
+}

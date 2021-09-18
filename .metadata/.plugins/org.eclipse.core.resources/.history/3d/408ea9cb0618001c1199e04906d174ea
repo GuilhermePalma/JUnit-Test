@@ -1,0 +1,19 @@
+package locadora.util;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class DataUtil {
+
+	public Date addDias(Date date, int quantidade_dias) {
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(date);
+		calendar.add(Calendar.DAY_OF_MONTH, quantidade_dias);
+		return calendar.getTime();
+	}
+	
+	public Date obterData(int dadta, int mes, int ano) {
+		
+	}
+	
+}

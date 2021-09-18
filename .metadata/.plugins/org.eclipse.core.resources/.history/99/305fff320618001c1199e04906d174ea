@@ -1,0 +1,18 @@
+package locadora.service;
+
+import locadora.locadora.*;
+import locadora.exception.*;
+
+public class LocacaoService {
+
+	private final int diasPadrao = 5;
+	public int testePublic;
+	int testeDefault;
+	
+	public Locacao alugarJogo(Cliente cliente, Jogo jogo) {
+		if(jogo.getQuantidadeEstoque() == 0) {
+			throws new locadora.exception.JogoSemEstoqueException();
+		}
+	}
+	
+}
